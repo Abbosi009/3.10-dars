@@ -1,21 +1,21 @@
 // For1 
-let a1 = 3, b1 = 8, count1 = 0, i1 = a1;
-while (i1 <= b1) {
-    console.log(i1);
-    i1++;
-    count1++;
+let a1 = 3, b1 = 8, countF1 = 0, iF1 = a1;
+while (iF1 <= b1) {
+    console.log(iF1);
+    iF1++;
+    countF1++;
 }
-console.log("For1 - Chiqarilgan sonlar soni:", count1);
+console.log("For1 - Chiqarilgan sonlar soni:", countF1);
 console.log('----------------');
 
 // For2 
-let a2 = 3, b2 = 8, count2 = 0, i2 = b2 - 1;
-while (i2 > a2) {
-    console.log(i2);
-    i2--;
-    count2++;
+let a2 = 3, b2 = 8, countF2 = 0, iF2 = b2 - 1;
+while (iF2 > a2) {
+    console.log(iF2);
+    iF2--;
+    countF2++;
 }
-console.log("For2 - Chiqarilgan sonlar soni:", count2);
+console.log("For2 - Chiqarilgan sonlar soni:", countF2);
 console.log('----------------');
 
 // For3 
@@ -35,187 +35,260 @@ while (kg4 <= 2.0) {
 console.log('----------------');
 
 // For5 
-let a5 = 3, b5 = 7, sum5 = 0, i5 = a5;
-while (i5 <= b5) {
-    sum5 += i5;
-    i5++;
+let a5 = 3, b5 = 7, sumF5 = 0, iF5 = a5;
+while (iF5 <= b5) {
+    sumF5 += iF5;
+    iF5++;
 }
-console.log("For5 - Yig'indisi:", sum5);
+console.log("For5 - Yig'indisi:", sumF5);
 console.log('----------------');
 
 // For6 
-let a6 = 2, b6 = 5, kop6 = 1, i6 = a6;
-while (i6 <= b6) {
-    kop6 *= i6;
-    i6++;
+let a6 = 2, b6 = 5, kopF6 = 1, iF6 = a6;
+while (iF6 <= b6) {
+    kopF6 *= iF6;
+    iF6++;
 }
-console.log("For6 - Ko‘paytma:", kop6);
+console.log("For6 - Ko‘paytma:", kopF6);
 console.log('----------------');
 
 // For7 
-a7 = 1, b7 = 4, sum7 = 0, i7 = a7;
-while (i7 <= b7) {
-    sum7 += i7 * i7;
-    i7++;
+let a7 = 1, b7 = 4, sumF7 = 0, iF7 = a7;
+while (iF7 <= b7) {
+    sumF7 += iF7 * iF7;
+    iF7++;
 }
-console.log("For7 - Kvadratlar yig'indisi:", sum7);
+console.log("For7 - Kvadratlar yig'indisi:", sumF7);
 console.log('----------------');
 
 // For8 
-let n8 = 5, sum8 = 0, i8 = 1;
-while (i8 <= n8) {
-    sum8 += 1 / i8;
-    i8++;
+let n8 = 5, sumF8 = 0, iF8 = 1;
+while (iF8 <= n8) {
+    sumF8 += 1 / iF8;
+    iF8++;
 }
-console.log("For8 - S =", sum8.toFixed(4));
+console.log("For8 - S =", sumF8.toFixed(4));
 console.log('----------------');
 
 // For9 
-let n9 = 5, kop9 = 1, i9 = 1;
-while (i9 <= n9) {
-    kop9 *= (1 + i9 / 10);
-    i9++;
+let n9 = 5, kopF9 = 1, iF9 = 1;
+while (iF9 <= n9) {
+    kopF9 *= (1 + iF9 / 10);
+    iF9++;
 }
-console.log("For9 - Ko‘paytma S =", kop9.toFixed(4));
+console.log("For9 - Ko‘paytma S =", kopF9.toFixed(4));
 console.log('----------------');
 
 // For10 
-let n10 = 6, sum10 = 0, i10 = 1;
-while (i10 <= (2 * n10 - 1)) {
-    sum10 += i10;
-    console.log(`Qoshiluv: ${i10} -> Yig'indi: ${sum10}`);
-    i10 += 2;
+let n10 = 6, sumF10 = 0, iF10 = 1;
+while (iF10 <= (2 * n10 - 1)) {
+    sumF10 += iF10;
+    console.log(`Qoshiluv: ${iF10} -> Yig'indi: ${sumF10}`);
+    iF10 += 2;
 }
-console.log(`For10 - ${n10}^2 =`, sum10);
+console.log(`For10 - ${n10}^2 =`, sumF10);
 console.log('----------------');
 
 // For11 
-let a11 = 2, n11 = 4, nat11 = 1, i11 = 1;
-while (i11 <= n11) {
+let a11 = 2, n11 = 4, nat11 = 1, iF11 = 1;
+while (iF11 <= n11) {
     nat11 *= a11;
-    i11++;
+    iF11++;
 }
 console.log(`For11 - ${a11}^${n11} =`, nat11);
 console.log('----------------');
 
 // For12 
-let a12 = 3, n12 = 4, i12 = 1, p12 = 1;
-while (i12 <= n12) {
-    p12 *= a12;
-    console.log(`${a12}^${i12} =`, p12);
-    i12++;
+let a12 = 3, n12 = 4, iF12 = 1, pF12 = 1;
+while (iF12 <= n12) {
+    pF12 *= a12;
+    console.log(`${a12}^${iF12} =`, pF12);
+    iF12++;
 }
 console.log('----------------');
 
 // For13 
-let a13 = 2, n13 = 4, p13 = 1, sum13 = 1, i13 = 1;
-while (i13 <= n13) {
-    p13 *= a13;
-    sum13 += p13;
-    i13++;
+let a13 = 2, n13 = 4, pF13 = 1, sumF13 = 1, iF13 = 1;
+while (iF13 <= n13) {
+    pF13 *= a13;
+    sumF13 += pF13;
+    iF13++;
 }
-console.log("For13 - S =", sum13);
+console.log("For13 - S =", sumF13);
 console.log('----------------');
 
 // For14 
-let n14 = 4, sum14 = 0, i14 = 1;
-while (i14 <= n14) {
-    let fakt = 1, j14 = 1;
-    while (j14 <= i14) {
-        fakt *= j14;
-        j14++;
+let n14 = 4, sumF14 = 0, iF14 = 1;
+while (iF14 <= n14) {
+    let fakt = 1, j = 1;
+    while (j <= iF14) {
+        fakt *= j;
+        j++;
     }
-    sum14 += fakt;
-    i14++;
+    sumF14 += fakt;
+    iF14++;
 }
-console.log("For14 - S =", sum14);
+console.log("For14 - S =", sumF14);
 console.log('----------------');
 
 // For15 
-let N15 = 4, K15 = 3, sum15 = 0, i15 = 1;
-while (i15 <= N15) {
-    sum15 += i15 ** K15;
-    i15++;
+let N15 = 4, K15 = 3, sumF15 = 0, iF15 = 1;
+while (iF15 <= N15) {
+    sumF15 += iF15 ** K15;
+    iF15++;
 }
-console.log("For15 - S =", sum15);
+console.log("For15 - S =", sumF15);
 console.log('----------------');
 
 // For16 
-let N16 = 4, sum16 = 0, i16 = 1;
-while (i16 <= N16) {
-    sum16 += i16 ** i16;
-    i16++;
+let N16 = 4, sumF16 = 0, iF16 = 1;
+while (iF16 <= N16) {
+    sumF16 += iF16 ** iF16;
+    iF16++;
 }
-console.log("For16 - S =", sum16);
+console.log("For16 - S =", sumF16);
 console.log('----------------');
 
 // For17 
-let A17 = 2, B17 = 5, i17 = A17;
-while (i17 <= B17) {
-    let j17 = 0;
-    while (j17 < (i17 - A17 + 1)) {
-        console.log(i17);
-        j17++;
+let A17 = 2, B17 = 5, iF17 = A17;
+while (iF17 <= B17) {
+    let j = 0;
+    while (j < (iF17 - A17 + 1)) {
+        console.log(iF17);
+        j++;
     }
-    i17++;
+    iF17++;
 }
 console.log('----------------');
 
 // For18 
-let son18 = 12, boluvchi18 = 1, count18 = 0, sum18 = 0;
+let son18 = 12, boluvchi18 = 1, countF18 = 0, sumF18 = 0;
 while (boluvchi18 <= son18) {
     if (son18 % boluvchi18 === 0) {
         console.log(boluvchi18);
-        sum18 += boluvchi18;
-        count18++;
+        sumF18 += boluvchi18;
+        countF18++;
     }
     boluvchi18++;
 }
-console.log("For18 - Bo'luvchilar soni:", count18);
-console.log("For18 - Yig'indisi:", sum18);
+console.log("For18 - Bo'luvchilar soni:", countF18);
+console.log("For18 - Yig'indisi:", sumF18);
 console.log('----------------');
 
 // For19 
-let n19 = 17, isPrime = true, i19 = 2;
-while (i19 <= Math.sqrt(n19)) {
-    if (n19 % i19 === 0) {
-        isPrime = false;
+let n19 = 17, isPrimeF19 = true, iF19 = 2;
+while (iF19 <= Math.sqrt(n19)) {
+    if (n19 % iF19 === 0) {
+        isPrimeF19 = false;
         break;
     }
-    i19++;
+    iF19++;
 }
-console.log(`For19 - ${n19} tubmi?`, isPrime ? "Ha" : "Yo'q");
+console.log(`For19 - ${n19} tubmi?`, isPrimeF19 ? "Ha" : "Yo'q");
 console.log('----------------');
 
 // For20 
-let N20 = 5, i20 = 1;
-while (i20 <= N20) {
-    let j20 = 1, line = "";
-    while (j20 <= i20) {
-        line += j20 + " ";
-        j20++;
+let N20 = 5, iF20 = 1;
+while (iF20 <= N20) {
+    let j = 1, line = "";
+    while (j <= iF20) {
+        line += j + " ";
+        j++;
     }
     console.log(line);
-    i20++;
+    iF20++;
 }
+console.log('----------------');
 
-/*While1. A va B butun musbat sonlari berilgan (A> B). A usunlikdagi kesmada maksimal darajada B kesma joylashtirilgan. A kesmaning bo'sh qismini aniqlovchi programma tuzilsin. Ko'paytirish va bo'lish amallarini ishlatmang.
+// While1
+let A_W1 = 27, B_W1 = 5, tmpW1 = A_W1;
+while (tmpW1 >= B_W1) {
+    tmpW1 -= B_W1;
+}
+console.log("While1: Bo'sh qism =", tmpW1);
 
-While2. A va B butun musbat sonlari berilgan (A > B). A usunlikdagi kesmada B kesmadan nechta joylashtirish mumkinligini aniqlovchi programma tuzilsin. Ko'paytirish va bo'lish amallarini ishlatmang.
+// While2
+let A_W2 = 27, B_W2 = 5, tmpW2 = A_W2, countW2 = 0;
+while (tmpW2 >= B_W2) {
+    tmpW2 -= B_W2;
+    countW2++;
+}
+console.log("While2: B soni joylashadi =", countW2);
 
-While3. n butun soni berilgan (n > 0). Agar n soni 3 ning darajasi bo'lsa "3 - ning darajasi", aks xolda "3 - ning darajasi emas” degan natija chiqaruvchi programma tuzilsin. Qoldiqli bo'lish va bo'lish amallarini ishlatmang.
+// While3
+let nW3 = 81, powW3 = 1;
+while (powW3 < nW3) {
+    powW3 *= 3;
+}
+console.log("While3:", powW3 === nW3 ? "3 - ning darajasi" : "3 - ning darajasi emas");
 
-While4. n va m butun musbat sonlari berilgan (n > m). n sonini m soniga bo'lib butun va qoldiq qismlarini bo'lish va qoldiqni olish amallarini ishlatmasdan topuvchi programma tuzilsin.
+// While4
+let nW4 = 27, mW4 = 5, qW4 = 0, tmpW4 = nW4;
+while (tmpW4 >= mW4) {
+    tmpW4 -= mW4;
+    qW4++;
+}
+console.log("While4: Butun qism =", qW4, ", Qoldiq =", tmpW4);
 
-While5. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarini teskari tartibda chiqaruvchi programma tuzilsin.
+// While5
+let nW5 = 12345, revW5 = "";
+while (nW5 > 0) {
+    let digit = nW5 % 10;
+    revW5 += digit;
+    nW5 = (nW5 - digit) / 10;
+}
+console.log("While5: Teskari =", revW5);
 
-While6. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlari yig'indisini va raqamlari sonini chiqaruvchi programma tuzilsin.
+// While6
+let nW6 = 12345, sumW6 = 0, countW6 = 0;
+while (nW6 > 0) {
+    let digit = nW6 % 10;
+    sumW6 += digit;
+    countW6++;
+    nW6 = (nW6 - digit) / 10;
+}
+console.log("While6: Yig'indi =", sumW6, ", Raqamlar soni =", countW6);
 
-While7. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarining orasida 2 raqami bor-yo'qligini aniqlovchi programma tuzilsin.
+// While7
+let nW7 = 431578, has2W7 = false;
+while (nW7 > 0) {
+    let digit = nW7 % 10;
+    if (digit === 2) {
+        has2W7 = true;
+        break;
+    }
+    nW7 = (nW7 - digit) / 10;
+}
+console.log("While7: 2 raqami bormi?", has2W7);
 
-While8. n butun soni berilgan (n > 0). Bo'lib butun va qoldiq qismlarini aniqlash orqali, berilgan son raqamlarining orasida toq raqamlar bor-yo'qligini aniqlovchi programma tuzilsin.
+// While8
+let nW8 = 8640, hasOddW8 = false;
+while (nW8 > 0) {
+    let digit = nW8 % 10;
+    if (digit % 2 === 1) {
+        hasOddW8 = true;
+        break;
+    }
+    nW8 = (nW8 - digit) / 10;
+}
+console.log("While8: Toq raqam bormi?", hasOddW8);
 
-While9. Palindromik songa tekshirish dasturini yozing. True yoki False qaytarsin.
-Palindromik son – boshidan va oxiridan o’qilish bir xil bo’lgan son, masalan 1345431, 45788754
+// While9
+let nW9 = 1345431, revW9 = 0, tempW9 = nW9;
+while (tempW9 > 0) {
+    let digit = tempW9 % 10;
+    revW9 = revW9 * 10 + digit;
+    tempW9 = (tempW9 - digit) / 10;
+}
+console.log("While9:", revW9 === nW9);
 
-While10. n butun soni berilgan (n > 1). N sonini tub yoki tub emasligini aniqlovchi programma tuzilsin.*/
+// While10
+let nW10 = 29, isPrimeW10 = true, iW10 = 2;
+while (iW10 < nW10) {
+    if (nW10 % iW10 === 0) {
+        isPrimeW10 = false;
+        break;
+    }
+    iW10++;
+}
+console.log("While10:", isPrimeW10 ? "Tub son" : "Tub emas");
